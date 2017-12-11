@@ -29,8 +29,8 @@ public class Splash extends Activity {
                     Splash.this.finish();
 
                     // transition from splash to main menu
-                    overridePendingTransition(R.animate.activityfadein,
-                            R.animate.splashfadeout);
+                    overridePendingTransition(R.anim.activityfadein,
+                            R.anim.splashfadeout);
 
                 }
             }, SPLASH_DISPLAY_TIME);
